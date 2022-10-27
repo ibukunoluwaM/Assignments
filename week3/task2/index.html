@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <section>
+    <h1>Hello! Welcome to our registration page</h1>
+    <p>Fill out the form properly to proceed to the login page</p>
+    <form action="login.html" method="post">
+      <label for="fname">First Name</label>
+      <input type="text" name="fname" id="fname" required>
+
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" id="lname" required>
+
+      <label for="pnumber">Phone Number</label>
+      <input type="tel" name="pnumber" id="pnumber" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" name="email" id="email" placeholder="someone@example.com" required>
+
+      <label for="gender">Gender</label>
+      <select name="gender" required>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+        <option value="cantsay">Prefer not to specify</option>
+      </select>
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" name="dob" id="dob" required>
+
+      <label for="favcolor">Favourite Color</label>
+      <input type="color" name="favcolor" id="favcolor" required>
+      <input type="checkbox" name="agreetot/c" id="agree" required>
+      <label class="checkbox" for="agree">I agree to the <a href="#">Terms
+          and conditions</a></label>
+      <button type="submit">Proceed to login page</button>
+    </form>
+  </section>
+</body>
+</html>

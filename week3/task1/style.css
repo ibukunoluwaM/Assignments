@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html, body {
+    height: 100%;
+    width: 100%;
+}
+  /* 
+  header {
+    padding: 10px;
+  } */
+  
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #323245;
+    padding: 8px 30px;
+}
+  
+h2 {
+    color: #fff;
+}
+
+nav ul {
+    flex-grow: 1;
+    text-align: right;
+}
+  
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    transition: color .2s ease-in-out;
+  }
+  
+nav ul li a:hover {
+      color: #be5b9e;
+  }
+  
+nav ul li a:active {
+    color: #fff;
+    background-color: #be5b9e;
+    padding: 8px 10px;
+}
+  
+section.intro, section.contact {
+    width: 100%;
+    background-color: #323245;
+}
+  
+section .intro2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+  }
+  
+section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+  
+section p {
+    color: #be5b9e;
+    font-size: 1.2rem;
+}
+
+section img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  
+#aboutme {
+    width: 60%;
+    text-align: center;
+    margin: 80px auto;
+}
+  
+#aboutme h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+}
+  
+#aboutme p {
+  color: #555;
+    line-height: 35px;
+  }
+  
+section.contact {
+    height: 40vh;
+    color: #fff;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+  
+section.contact h4 {
+  font-size: 1.6rem;
+  }
+  
+section.socials {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+section.socials p {
+    color: #000;
+}
+
+
+section.socials .fa {
+    font-size: 28px;
+    margin-right: 10px;
+}
+  
+section.socials .mail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+  
+section.socials .mail a {
+    color: #be5b9e;
+    text-decoration: none;
+    transition: color .3s ease-in;
+    font-size: 1.1rem;
+}
+
+section.socials .mail a:hover {
+    color: #323245;
+}
+  
+  
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+  
+input {
+    padding: 8px 10px;
+    outline: none;
+    border: 1px solid #444;
+} 
+  
+button.send {
+    border: 1px solid #be5b9e;
+    display: block;
+    background: transparent;
+    padding: 8px 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+  
+section#services {
+    background-color: beige;
+    padding: 50px 15px;
+}
+
+section#services h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+  
+#services .serve-contain {
+    display: flex;
+}
+  
+.serve-contain .serve {
+    background-color: #fff;
+    flex-basis: 25%;
+    padding: 25px 10px;;
+    margin-left: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+  
+.serve-contain .serve .fa {
+    font-size: 30px;
+    padding-bottom: 14px;
+}
+  
+.serve-contain .serve p {
+    color: #000;
+    font-size: 13px;
+}
+  
+section#projects {
+    background-color: beige;
+    width: 100%;
+    padding: 20px;
+}
+  
+section#projects h5 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+  
+section#projects p {
+    font-size: 1rem;
+    text-align: center;
+    color: #777
+}
+  
+section#projects ul li {
+    margin: 15px 50px;
+}
+  
+section#projects ul li a {
+    color: #be5b9e;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+  
+footer {
+    background-color: #323245;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  font-size: 1.2rem;
+}
